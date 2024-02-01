@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <input type="text" id="address" placeholder="Address"><br>
+        <label for="checkbox">Have you ever lived with a Dog before?</label><br>
+        <input type="checkbox" id="checkboxYes" value="Yes" name="livedWithDog">
+        <label for="checkboxYes">Yes</label>
+        <input type="checkbox" id="checkboxNo" value="No" name="livedWithDog">
+        <label for="checkboxNo">No</label>
+        <select id="multiSelect">
+            <option>Yes</option>
+            <option>No</option>
+            <option>Not selected</option>
+        </select>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>
