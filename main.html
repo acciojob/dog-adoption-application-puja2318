@@ -14,16 +14,18 @@
     <input type="text" id="name" placeholder="Name">
 	<input type="text" id="phone" placeholder="Phone Number">
 	<input type="text" id="address" placeholder="Address"><br>
-    <label for="checkbox"> Have you ever lived with a Dog before?</label><br>
-	<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?" name="Submit">Yes</input>
-	<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?" name="Submit">No</input>
-	<select id="multiSelect">
-	<option>Yes</option>
-	<option>No</option>
-	<option>Not selected</option>
-	</select>
- <input type="submit" id="submit" value="Submit">
-</form>	
+    <label>Have you ever lived with a Dog before?</label><br>
+    <input type="radio" id="livedWithDogYes" value="Yes" name="livedWithDog"> 
+    <label for="livedWithDogYes">Yes</label>
+    <input type="radio" id="livedWithDogNo" value="No" name="livedWithDog"> 
+    <label for="livedWithDogNo">No</label><br>
+    <select id="multiSelect">
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not selected</option>
+    </select>
+    <input type="submit" id="submit" value="Submit">
+</form>
 </body>
 
 </html>
